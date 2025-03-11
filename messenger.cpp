@@ -129,6 +129,7 @@ class Messenger{
                 while(std::getline(ReadFile, temp)){
                     if(!temp.empty()){
                         is_empty = false;
+                        break;
                     }
                 }
                 if(is_empty){
